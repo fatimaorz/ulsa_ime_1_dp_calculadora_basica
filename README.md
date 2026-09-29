@@ -118,16 +118,8 @@ _____
 
 | # | ¿Qué falló o qué quise mejorar? | ¿Qué cambié? | ¿Funcionó? |
 |---|---|---|---|
-| 1 | Puse un ; de más después del if y del while. 
-    | El mensaje de error salía siempre y el programa
-    |  se quedaba trabado con b = 0 |                  | Quité los ; sobrantes: if (...) 
-                                                       | { y while (b == 0) {. |          |
-    |Sí. Ahora el mensaje solo sale cuando la opción es inválida
-     y el programa vuelve a pedir el número.
-| 2 | Faltaban ;, std:: en endl, comillas simples en el char y un <<.
-    |  Además, el #include "utilerias.h" daba error. |                |Corregí cada línea y borré 
-                                                                      | el   #include "utilerias.h"._ |
-|Sí. El programa compila y calcula bien.|
+| 1 | Puse un ; de más después del if y del while.El mensaje de error salía siempre y el programase quedaba trabado con b = 0 | Quité los ; sobrantes: if (...) { y while (b == 0) {.|Sí. Ahora el mensaje solo sale cuando la opción es inválida y el programa vuelve a pedir el número.
+| 2 | Faltaban ;, std:: en endl, comillas simples en el char y un <<. Además, el #include "utilerias.h" daba error. |                |Corregí cada línea y borré el   #include "utilerias.h"._ |Sí. El programa compila y calcula bien.|
 **¿Encontré algo que la receta no contemplaba? ¿Qué?**
 _____
 
