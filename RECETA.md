@@ -10,7 +10,7 @@
 2. MOSTRAR el menu: 1) Suma  2) Resta  3) Multiplicacion  4) Division
 3. REPETIR
       opcion ← leerEntero("Elige una opcion (1-4): ")
-      SI opcion < 1 O opcion > 4 ENTONCES
+      SI opcion < 1 o opcion > 4 ENTONCES
           MOSTRAR "Opcion no valida, elige un numero del 1 al 4"
       FIN SI
    HASTA QUE opcion este entre 1 y 4
